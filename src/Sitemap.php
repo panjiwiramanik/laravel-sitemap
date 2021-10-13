@@ -13,7 +13,7 @@ use Spatie\Sitemap\Tags\Url;
 class Sitemap implements Responsable, Renderable
 {
     /** @var \Spatie\Sitemap\Tags\Url[] */
-    protected array $tags = [];
+    public array $tags = [];
 
     public static function create(): static
     {
