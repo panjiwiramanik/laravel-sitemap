@@ -11,7 +11,7 @@ use Spatie\Sitemap\Tags\Url;
 class Sitemap implements Responsable
 {
     /** @var array */
-    protected $tags = [];
+    public $tags = [];
 
     public static function create(): self
     {
